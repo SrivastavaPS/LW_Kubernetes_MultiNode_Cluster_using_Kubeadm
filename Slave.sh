@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo su -
 swapoff -a
 dnf install -y iproute-tc
 modprobe overlay
